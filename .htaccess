@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(config(\.example)?\.php|conexion\.php|.*\.sql|.*\.md|.*\.docx)$">
+    Require all denied
+</FilesMatch>
